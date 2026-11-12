@@ -1,0 +1,21 @@
+[project]
+name = "searxng-python-cli"
+version = "0.1.0"
+description = "Headless Python CLI for SearXNG engines. Does not start the SearXNG web application."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "AGPL-3.0-or-later" }
+dependencies = [
+  "searxng @ git+https://github.com/searxng/searxng.git@81371861f67226091d1c4df2e3908a11d3b54eb9",
+  "tzdata==2026.2",
+]
+
+[project.scripts]
+searxng-python-cli = "searxng_python_cli.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["searxng_python_cli*"]

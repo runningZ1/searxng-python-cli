@@ -1,0 +1,14 @@
+venv/
+cache/
+pip-cache/
+temp/
+results/
+data/
+docs/
+config/*.local.yml
+__pycache__/
+*.pyc
+*.egg-info/
+.eggs/
+dist/
+build/

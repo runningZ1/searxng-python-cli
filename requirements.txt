@@ -1,0 +1,2 @@
+searxng @ git+https://github.com/searxng/searxng.git@81371861f67226091d1c4df2e3908a11d3b54eb9
+tzdata==2026.2

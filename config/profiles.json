@@ -1,0 +1,30 @@
+{
+  "groups": {
+    "general_zh": ["360search", "sogou", "quark"],
+    "general_web": ["duckduckgo web", "brave", "yahoo", "yandex"],
+    "images": ["baidu images", "quark images", "pinterest", "pexels", "pixabay images"],
+    "videos_zh": ["bilibili", "acfun", "iqiyi", "sogou videos"]
+  },
+  "profiles": {
+    "general": {
+      "groups": ["general_zh", "general_web"],
+      "exclude": [],
+      "terms": []
+    },
+    "fashion": {
+      "groups": ["general_zh", "general_web"],
+      "exclude": ["github", "npm", "arxiv", "openlibrary", "pubmed", "pdbe", "hoogle"],
+      "terms": ["服装", "服饰", "时装", "穿搭", "潮流", "时尚", "面料", "女装", "男装", "fashion", "apparel", "clothing", "garment", "trend"]
+    },
+    "fashion-images": {
+      "groups": ["images"],
+      "exclude": [],
+      "terms": ["服装", "服饰", "时装", "穿搭", "潮流", "时尚", "面料", "女装", "男装", "fashion", "apparel", "clothing", "garment", "trend"]
+    },
+    "fashion-videos": {
+      "groups": ["videos_zh"],
+      "exclude": [],
+      "terms": ["服装", "服饰", "时装", "穿搭", "潮流", "时尚", "面料", "女装", "男装", "fashion", "apparel", "clothing", "garment", "trend"]
+    }
+  }
+}
